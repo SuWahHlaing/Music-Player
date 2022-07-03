@@ -1,0 +1,40 @@
+.image1{
+     width: 300px;
+     height: 320px;
+     padding: 10px;
+     border-radius: 30px;
+     }
+.image2{
+    width: 300px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.image3{
+    width: 300px;
+    height: 260px;
+    padding: 20px;
+    position: absolute;
+    top: 240px;
+    left: 280px;
+    border-radius: 30px;
+}
+.image4{
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 460px;
+    border-radius: 10px;
+}
+.parentDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+.header
+{
+    font-family: 'Caveat', cursive;
+    color: rgb(22, 145, 145);
+}
