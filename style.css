@@ -36,12 +36,48 @@
 .header
 {
     font-family: 'Caveat', cursive;
-    color:rgb(22, 207, 207);
+    color:rgb(11, 130, 176);
 }
-.musicTag{
-  width: 300px;
-  color: rgb(11, 130, 176);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 20px;
-  border-bottom:1px solid skyblue;
+.trackItem{
+    background-color: skyblue;
+    padding: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+.progressBar{
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+}
+.currentProgress{
+    width: 0px;
+    height: 100%;
+    background-color: white;
+}
+.musicPlayer{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+.previousButton, .nextButton{
+    padding: 4px;
+    font-size: 20px;
+}
+.playButton{
+    display: none;
+    padding: 4px;
+    font-size: 20px;
+}
+.pauseButton{
+    padding: 4px;
+    font-size: 20px;
+
+}
+.currentAndTotalTime{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
